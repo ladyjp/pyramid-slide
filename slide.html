@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Pyramid Slider</title>
+</head>
+<body>
+    <div class = "header">
+        <h1>Pyramid Slide</h1>
+    </div>
+
+    <div class = "pybox">
+        <div class ="selectors">
+        <form>
+            <label> Brick Symbol
+                <select name="brickType" type='select' onchange="drawPyramid()">
+                    <option value="X">X</option>
+                    <option value="@">@</option>
+                    <option value="#">#</option>
+                    <option value="$">$</option>
+                </select>
+            </label>
+        <label> &nbsp; &nbsp; </sp></sp>How high?
+            <input type="range" id="slide" value="1" min="0" max="25" oninput="drawPyramid()" >
+           <label id="pyramidHeight"></label>
+        </label>
+    </form>
+    </div>
+    </div>
+    <div id = "pyramid">
+        <!--  Container for pyramid -->
+    </div>
+         <script src="pyramid-slide.js"></script>
+</body>
+</html>
