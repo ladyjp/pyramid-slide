@@ -1,20 +1,23 @@
+
 .header {
-    background-color: hotpink;
+    background-color: rgb(255, 192, 203);
+    font-style: arial;
     border-style: solid;
     border-color: #494b4a;
     font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
-    color: #202221;
+    color: #999c9b;
     }
+
 .pybox {
-        border-color:  #494b4a;
+        border-color:  #d1d4d3;
         border-left: solid;
         border-right: solid;
         border-top: solid;
     }
 .selectors {
-    background-color: #dd21cd;
+    background-color: pink;
     line-height: 4em;
     color: #001a13;
     padding-left: 25px;
@@ -28,7 +31,6 @@
     padding-right: 650px;
     padding-bottom: 30px;
     padding-left: 30px;
-    border-color: #004d39;
     border-left: solid;
     border-right: solid;
     border-bottom: solid;

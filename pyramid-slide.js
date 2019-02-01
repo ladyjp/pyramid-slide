@@ -1,4 +1,3 @@
-//height argument is defined above as a get element from "slide"
 function drawPyramid() {
 
     var height = document.getElementById("slide").value;
@@ -31,15 +30,3 @@ function drawPyramid() {
         document.getElementById("pyramidHeight").innerHTML = height;
 }
 }
-
-
-
-//        var brickType = ""
-//        var sel = document.getElementById('sel');
-//        var opts = sel.options;
-//        for (var opt, j=0; opt = opts[j]; j++){
-//            if(opt.value==brickType)
-//            {sel.selectedIndex = j;
-//            break;}
-//        }
-//    }
